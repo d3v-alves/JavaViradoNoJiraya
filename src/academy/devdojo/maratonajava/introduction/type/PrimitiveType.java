@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.introduction.type;
 
 public class PrimitiveType {
     static void main() {

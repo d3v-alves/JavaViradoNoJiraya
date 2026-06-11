@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.introduction.controlstructures;
 
 public class ConditionalStructures {
     static void main() {

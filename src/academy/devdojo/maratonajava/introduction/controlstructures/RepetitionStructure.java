@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.introduction.controlstructures;
 
 public class RepetitionStructure {
     public static void main(String[] args) {
