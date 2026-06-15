@@ -11,6 +11,7 @@ public class Student02 {
         System.out.println(student01.name);
         System.out.println("----------------------------");
 
+        student02.name = "Alves";
         System.out.println(student02.name);
     }
 }

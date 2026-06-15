@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.javacore.introductionclasses.domain;
 
-public class Student {
+public class Car {
     public String name;
-    public int age;
-    public char sex;
+    public String model;
+    public int year;
 }
