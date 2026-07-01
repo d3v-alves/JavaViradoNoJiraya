@@ -7,7 +7,7 @@ public class Calculator {
     }
 
     public void subtractTwoNumbers() {
-        System.out.println(10 - 10);
+        System.out.println(10 - 20);
     }
 
     public void multiplyTwoNumbers(int num1, int num2) {
@@ -19,5 +19,29 @@ public class Calculator {
             return 0;
         }
         return num1 / num2;
+    }
+
+    public void changeTwoNumbers(int num1, int num2) {
+        num1 = 99;
+        num2 = 33;
+        System.out.println("Dentro do changeTwoNumbers");
+        System.out.println("Num1 " + num1);
+        System.out.println("Num2 " + num2);
+    }
+
+    public void somaArray(int[] numbers) {
+        int soma = 0;
+        for (int num : numbers) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numbers) {
+        int soma = 0;
+        for (int num : numbers) {
+            soma += num;
+        }
+        System.out.println(soma);
     }
 }
